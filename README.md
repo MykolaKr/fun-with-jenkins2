@@ -18,7 +18,13 @@ docker build -t jenkins-groovy .
 ```
 docker run -d -p 8080:8080 -v ~/jenkins-home:/var/jenkins_home jenkins-groovy
 ```
-### 6. Open jenkins on localhost:8080
-credintals admin:admin
-Seed job automatic run yourself (via scm trigger). After 1 minutes seed job automatic run Hello world job
+### 6. Open runned project
+
+Open jenkins on localhost:8080
+
+Login  credentials admin:admin
+
+Seed job automatic run yourself (via scm trigger).
+
+After 1 minutes seed job automatic run Hello world job (hello.dsl file)
 
